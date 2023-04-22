@@ -1,0 +1,39 @@
+body{
+    background-color: #207dc0;
+    color: #fff;
+}
+
+.clock{
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+
+.clock h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+}
+
+.clock-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    align-items: center;
+}
+
+.clock-1{
+    width: 32%;
+    background-color: #fff;
+    color: #000;
+    border-radius: 12px;
+    margin-right: 4%;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+}
+
+#date{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
